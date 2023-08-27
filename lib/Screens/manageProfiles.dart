@@ -101,7 +101,7 @@ class _ManageProfilesState extends State<ManageProfiles> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    fetchProfile();
+    // fetchProfile();
 
     technicalProductsController = TextEditingController(text: businessName);
     EmailController = TextEditingController(text: businessEmail);
